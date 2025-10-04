@@ -360,7 +360,7 @@ class _ProductItemState extends State<ProductItem> {
     return SignatureWidget(signatureController: _signatureController);
   }
 
-  Widget spaceW() => SizedBox(height: 5);
+  Widget spaceW() => SizedBox(width: 5);
   Widget spaceH() => SizedBox(height: 5);
 
   makeAction() async {

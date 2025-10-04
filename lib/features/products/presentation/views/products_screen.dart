@@ -479,7 +479,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
     );
   }
 
-  Widget spaceW() => SizedBox(height: 5);
+  Widget spaceW() => SizedBox(width: 5);
   Widget spaceH() => SizedBox(height: 5);
 
   double maxWidth() => MediaQuery.of(context).size.width;
